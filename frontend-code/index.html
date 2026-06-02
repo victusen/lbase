@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/logo.webp" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Lbase</title>
+</head>
+<body class="bg-white h-screen flex flex-col items-center justify-center text-black ">
+    <div class="h-[60%] w-[400px] box-border py-12 border border-gray-300  flex flex-col items-center text-black bg-white">
+        <h2 class="text-black">Lets test run with Gemini</h2>
+
+        <div class=" flex flex-col justify-center border-gray-300 rounded-lg p-2 mt-20  ">
+            <input type="file" name="file" id="file" class="border border-gray-300 rounded-lg p-2 mt-4  ">
+            <button type="button" id="submitBtn" class="mt-4 px-6 py-3 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-lg shadow-md transition-colors duration-300">
+                Upload Now
+            </button>
+        </div>
+
+        <p class="text-black" id="response"></p>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
