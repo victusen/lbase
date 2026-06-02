@@ -1,0 +1,3 @@
+The product of the future. Watch out for lbase, the only decentralized platform for managing, verifying and authenticating businesses(***).
+
+Coming soon in style...
