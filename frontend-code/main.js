@@ -13,7 +13,7 @@ submitBtn.addEventListener('click' , async (e) => {
     const formData = new FormData();
     formData.append('image', file); 
     try {
-        const res = await fetch("http://localhost:3000/upload", {
+        const res = await fetch("https://lbase.onrender.com/upload", {
             method: "POST",
             body: formData,
         });
